@@ -1,6 +1,4 @@
-FROM nginx:latest
+rhel9/nginx-126
 
 COPY html /usr/share/nginx/html
 
-# Command to run Nginx in the foreground
-CMD ["nginx", "-g", "daemon off;"]
