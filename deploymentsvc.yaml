@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hellodocker-deployment
-        image: mollycheng/hellodocker
+        image: mollycheng/hellonginx
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
